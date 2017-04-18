@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/atp__activity_player_layout_help_call_audience_background" />
+
+    <ImageView
+        android:id="@+id/img_title_help_audience"
+        android:layout_width="158dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/atp__activity_player_layout_help_call_title_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Ý kiến khán giả"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TableRow
+        android:id="@+id/tbr_help_audience_01"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/img_title_help_audience"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txt_percent_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v_help_audience_barchart_a"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:text="0%"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/v_help_audience_barchart_a"
+                android:layout_width="36dp"
+                android:layout_height="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#76FF03" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txt_percent_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v_help_audience_barchart_b"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:text="0%"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/v_help_audience_barchart_b"
+                android:layout_width="36dp"
+                android:layout_height="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#76FF03" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txt_percent_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v_help_audience_barchart_c"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:text="0%"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/v_help_audience_barchart_c"
+                android:layout_width="36dp"
+                android:layout_height="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#76FF03" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/txt_percent_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/v_help_audience_barchart_d"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:text="0%"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/v_help_audience_barchart_d"
+                android:layout_width="36dp"
+                android:layout_height="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#76FF03" />
+        </RelativeLayout>
+    </TableRow>
+
+    <View
+        android:id="@+id/v_line_help_audience"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tbr_help_audience_01"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#ffffff" />
+
+    <TableRow
+        android:id="@+id/tbr_help_audience_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v_line_help_audience"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="A"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="B"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="C"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="D"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </TableRow>
+
+    <RelativeLayout
+        android:id="@+id/btn_close_help_audience"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/tbr_help_audience_02"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/bg_button_close_help_call_dialog">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Đóng"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</RelativeLayout>

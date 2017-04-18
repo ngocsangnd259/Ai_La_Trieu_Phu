@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#212121"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#d500f9">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Ai là triệu phú"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Design: Phạm Văn Long"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="Email: phamvanlong021096@gmail.com"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_dialog_info_close"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_button_confirm"
+        android:text="Đóng"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+</LinearLayout>

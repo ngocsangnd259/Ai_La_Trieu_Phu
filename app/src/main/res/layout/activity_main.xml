@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/atp__activity_home_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="356dp"
+        android:layout_height="356dp">
+
+        <ImageView
+            android:id="@+id/img_bg_circle_anim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/atp__bg_circle_anim" />
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center"
+            android:src="@drawable/atp__icon_logo_in_app" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_play" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp">
+
+        <ImageView
+            android:id="@+id/btn_rank"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/atp__activity_home_button_archivement" />
+
+        <ImageView
+            android:id="@+id/btn_info"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@id/btn_rank"
+            android:src="@drawable/atp__activity_home_button_about" />
+
+        <ImageView
+            android:id="@+id/btn_volume"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/btn_rank"
+            android:src="@drawable/volume_on" />
+    </RelativeLayout>
+</LinearLayout>
